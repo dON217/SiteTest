@@ -2,16 +2,29 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #353535; /* Dark blue background */
-    color: #ecf0f1; /* Light text color */
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    color: #c4c4c4;
+    line-height: 1.6;
 }
 
 header {
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #2e2e2e; /* Dark blue background for header */
-    color: #C12323; /* White text color for header */
-    padding: 10px;
+    background-color: #292929;
+    color: #C12323;
+    padding: 1rem 0;
     text-align: center;
+    font-size: 2.0rem;
+    position: relative; /* Added position */
+}
+header img {
+    width: 100px; /* Adjust the size of the image */
+    height: 100px; /* Adjust the size of the image */
+    
+    position: absolute; /* Position it inside the header */
+    top: 50%; /* Center it vertically */
+    left: 10%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Center it precisely */
 }
 
 section {

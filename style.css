@@ -32,7 +32,7 @@
         hr{
             margin-top: 7%;
             border-style: solid none none none;
-            border-color: #C12323;
+            border-color: #aaa9ac;
             border-width: 0.2px;
             width: 90%;
         }
@@ -106,6 +106,10 @@
             color: #C12323;
            
             
+        }
+        a{
+            text-decoration: none;
+
         }
 
         footer p {

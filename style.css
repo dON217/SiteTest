@@ -1,19 +1,24 @@
 
        body {
+            background-image: url('images/background.jpeg.png');
+            background-size: cover; /* Adjust the background size as needed */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+        
             font-family: 'Montserrat Alternates', sans-serif;
-            background-image: linear-gradient(#2e2e2e, #110b0a);
+            /*background-image: linear-gradient(#2e2e2e, #110b0a);*/
             color: #c4c4c4;
             line-height: 1.6;
         }
 
         header {
             font-family: 'Montserrat Alternates', sans-serif;
-            background-color: #292929;
+            /*background-color: #292929;*/  
             color: #C12323;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            background-color: #181818;
-            padding: 1rem 0;
+            /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+            /*border-radius: 5px;*/
+            /*background-color: #181818;*/
+            /*padding: 1rem 0;*/    
             text-align: center;
             font-size: 2.0rem;
             position: relative; /* Added position */
@@ -87,10 +92,10 @@
         }
 
         p {
-            font-family: 'Montserrat Alternates', sans-serif;
+            font-family: 'Didact-Gothic', sans-serif;
             font-size: 1.1rem;
             margin-bottom: 1.5rem;
-            color: #C12323;
+            color: #aaa9ac;
             white-space: pre;
             
         }
